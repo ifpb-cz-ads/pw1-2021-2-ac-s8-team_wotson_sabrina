@@ -1,4 +1,3 @@
 def pesquise(lista, valor):
-	for valor in enumerate(lista):
-		return valor
-	return None
+	for e in enumerate(lista):
+		return valor in e[1:]
